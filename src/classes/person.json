@@ -1,0 +1,72 @@
+{
+    "students": [
+        {
+            "firstName": "Igor",
+            "lastName": "Cuciuc",
+            "birthDate": "12/12/2000",
+            "sex": "M",
+            "groupe": "TI-122",
+            "payed_contract": true,
+            "bource": 800,
+            "address": {
+                "country": "Moldova",
+                "city": "Chisinau",
+                "street": "Albisoara 82/1"
+            }
+        },
+        {
+            "firstName": "Ana",
+            "lastName": "Nastase",
+            "birthDate": "12/02/1999",
+            "sex": "F",
+            "groupe": "TI-123",
+            "payed_contract": false,
+            "bource": 1200,
+            "address": {
+                "country": "Moldova",
+                "city": "Soroca",
+                "street": "Tighina 2/2"
+            }
+        },
+        {
+            "firstName": "Barbara",
+            "lastName": "Covalciuc",
+            "birthDate": "02/02/1999",
+            "sex": "F",
+            "groupe": "TI-123",
+            "payed_contract": false,
+            "bource": 200,
+            "address": {
+                "country": "Moldova",
+                "city": "Chisinau",
+                "street": "Bulevardul Moscovei 2"
+            }
+        }
+    ],
+    "teachers": [
+        {
+            "firstName": "Nicolae",
+            "lastName": "Vandam",
+            "birthDate": "12/11/1980",
+            "sex": "M",
+            "salary": 19000,
+            "address": {
+                "country": "Moldova",
+                "city": "Chisinau",
+                "street": "Sucevita 22"
+            }
+        },
+        {
+            "firstName": "Madona",
+            "lastName": "Grande",
+            "birthDate": "02/05/1960",
+            "sex": "F",
+            "salary": 22000,
+            "address": {
+                "country": "Moldova",
+                "city": "Chisinau",
+                "street": "Florilor 1/2"
+            }
+        }
+    ]
+}
