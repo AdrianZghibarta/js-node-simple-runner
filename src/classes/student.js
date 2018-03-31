@@ -15,6 +15,6 @@ class Student extends Person {
     }
 }
 
-console.log(new Student());
+console.log(new Student({firstName: "firstName"}));
 
 module.exports = Student;

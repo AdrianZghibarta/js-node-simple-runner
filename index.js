@@ -3,10 +3,10 @@ const colors = require('colors');
 const exec = require('child_process').exec;
 
 function compileJSFile(path) {
-    const babelCompileCommand = `./node_modules/babel-cli/bin/babel-node.js ${path} --presets es2015,stage-2`;
+    const babelCompileCommand = `./node_modules/babel-cli/bin/babel-node.js ${path} --presets latest`;
     const nodeCompileCommand = `node ${path}`;
 
-    exec(nodeCompileCommand, function (error, output) {
+    exec(babelCompileCommand, function (error, output) {
         if (error) {
             console.log(colors.red(`>> Execution Error for '${path}' file:`));
             console.log(colors.red(error));
